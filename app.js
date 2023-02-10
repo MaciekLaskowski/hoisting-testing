@@ -22,3 +22,16 @@ console.log(b);
 // let b;
 // console.log(b) ---> undefined
 // b = 3;
+
+sumTwo(5, 7);
+
+function sumTwo(a, b) {
+    console.log(a + b);
+}
+
+// functions are also hoisted
+// the are even moved above the var declartions, so to very top of the code
+// so in this example we receive 12 as a result even tho function has been declared after we really run it
+// but what happens thanks to hoisting, is moving function declaration to very to
+// so code from line 26 can be executed properly
+// what is important arrow functions, or the ones defined with let or const keywrods would not be hoisted
