@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
 /* Box sizing rules */
 *,
 *::before,
@@ -71,4 +73,18 @@ select {
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    background: linear-gradient(45deg, rgb(255, 170, 0), rgb(0, 128, 255));
+    min-height: 100vh;
+    color: white;
+}
+
+h1 {
+    text-align: center;
 }
